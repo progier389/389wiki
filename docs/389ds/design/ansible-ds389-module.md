@@ -69,8 +69,8 @@ They are the first level parameters of the ds389_server action plugin :
 | present | Update 389ds configuration without deleting resources that are not listed.           |
 | absent  | Delete all specified instances                                                       |
 | updated | Synchronize 389ds configuration. Beware:  Resources that are not listed are deleted. |
-| started | Ensure that all kisted instances are started                                         |
-| stopped | Ensure that all kisted instances are stopped                                         |
+| started | Ensure that all listed instances are started                                         |
+| stopped | Ensure that all listed instances are stopped                                         |
 
 ### ds389_instances
 
